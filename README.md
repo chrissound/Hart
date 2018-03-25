@@ -32,13 +32,13 @@ http://www.andrevdm.com/posts/2018-02-05-hakyll-code-build-include-compiler.html
 
 `{{ gitCommitOffset }}` returns a special section's commit 'range'.
 
-`{{ fileSection path/to/file.hs main }}` returns a section from a file (thanks to https://github.com/owickstrom/pandoc-include-code)
+`{{ fileSection path/to/file.hs main }}` returns a section from a file (thanks to https://github.com/owickstrom/pandoc-include-code).
 
 `{{{{ shellOutput command goes here }}}}` which would execute `command goes here` (in your shell) and output whatever is returned.
 
 `{{{ghci
 :t head
-}}}` will run the code within a GHCi session and output the results.
+}}}` will run the code within a GHCi session and output the results (thanks to https://github.com/byorgey/BlogLiterately).
 
 
 ## Limitations
