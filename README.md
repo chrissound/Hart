@@ -17,11 +17,10 @@ Section3.md / commit6
 
 This also means that if you want to `amend` an old section / code, you do a git rebase, change the code and thats it (well you still need to rerun the compilation / rendering)! No need to modify anything else as the section files only store references relating to files / diffs.
 
-Some possible similar projects of interest:
+Similar projects of potential interest:
 https://byorgey.wordpress.com/blogliterately/
 http://www.andrevdm.com/posts/2018-02-05-hakyll-code-build-include-compiler.html
-
-
+http://howardism.org/Technical/Emacs/literate-devops.html
 
 ## Supported tags / features:
 `{{ sectionHeader }}` returns the text `Secton x` where x is the section number.
